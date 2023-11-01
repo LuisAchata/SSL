@@ -1,0 +1,5 @@
+<operador> -> + | - | * | / | ( | ) 
+<constante_numérica> -> <digito> | <constante_numérica> <digito>
+<nueva_línea> -> \n
+<error> -> <cualquier_carácter_que_no_sea_operador_constante_numérica_nueva_línea>
+<digito> -> 0|1|2|3|4|5|6|7|8|9
